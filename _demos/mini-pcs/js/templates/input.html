@@ -1,0 +1,8 @@
+<div class="panel panel-<% if (!active) { %>default<% } else { %>warning<% } %>">
+  <div class="panel-heading">
+    <h3 class="panel-title"><%= title %></h3>
+  </div>
+  <div class="panel-body">
+    <a href="#" class="activator"><img src="/img/<%= icon %><% if (active) { %>_on<% } %>.png" /></a>
+  </div>
+</div>

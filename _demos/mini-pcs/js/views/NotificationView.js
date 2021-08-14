@@ -1,0 +1,1 @@
+define(["marionette","tpl!templates/notification.html"],function(e,t){"use strict";return e.ItemView.extend({template:t,events:{"click button":"dismissNotification"},initialize:function(){$("#notification").css("display","block")},dismissNotification:function(e){e.preventDefault(),$("#notification").css("display","none"),this.destroy()}})});

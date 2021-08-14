@@ -1,0 +1,8 @@
+<div class="alert alert-<%= _.isUndefined(obj.type)? 'info' : type %>">
+    <button type="button" class="btn btn-warning pull-right">Close</button>
+    <% if(!_.isUndefined(obj.title)) { %>
+    <h4><%= title %></h4>
+    <% } %>
+    <%= description %>
+    <div style="clear:both;"></div>
+</div>

@@ -1,0 +1,1 @@
+define(["marionette"],function(e){"use strict";return e.AppRouter.extend({appRoutes:{"":"showPage","page/:pageName":"showPage",hi:"hello"}})});

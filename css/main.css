@@ -1,0 +1,211 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+	font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.navbar {
+	margin-bottom:0px;
+}
+
+.navbar-brand {
+	height:80px;
+}
+
+.navbar-default {
+	background-color: #ffffff; 
+	border-color: #ffffff; 
+}
+
+.navbar-toggle {
+	margin-top:22px;
+}
+
+.responsive-image {
+	max-width: 100%;
+}
+
+.jumbotron { 
+  background: url(/img/background-cover.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.jumbotron h1 {
+	font-size:2em;
+	font-weight:300;
+	text-align:center;
+}
+
+.orange-box {
+	background-color:rgba(247,147,29,.75);
+	color:#ffffff;
+	padding:10px 20px;
+}
+
+.orange-box h2 {
+	color:#ffffff;
+	font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;;
+	font-size:1.25em;
+	font-weight:700;
+	line-height:1.75em;
+	margin-bottom:1em;
+}
+
+.orange-box p, p {
+	font-size:1em;
+	line-height:1.5em;
+}
+
+h2 {
+	color:#f7931d;
+	font-family:"Open Sans Condensed","Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:3.25em;
+	font-weight:300;
+	margin:1em 0px;
+}
+
+.stylized-ordered-list {
+	font-family: 'Merriweather',Georgia, serif;
+	font-size:5em;
+	margin-left:1em;
+	line-height:.5em;
+}
+
+.stylized-ordered-list li {
+	padding-bottom:.33em;
+}
+
+.stylized-ordered-list span {
+	font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:.35em;
+}
+
+.mobile-padding {
+	font-size:1.75em;
+	margin-bottom:48px;
+}
+
+.stripes {
+	color:#efefef;
+}
+
+.left {
+	float:left;
+	margin-right:10px;
+}
+
+.gray-box {
+	background-color:#d5d5d5;
+	padding:20px;
+}
+
+h3 {
+	color:#f7931e;
+	font-family:"Open Sans Condensed","Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:2.5em;
+	font-weight:300;
+}
+
+h4 {
+	color:#f7931e;
+	font-weight:300;
+	font-size:1.5em;
+}
+
+h5 {
+	color:#606060;
+	font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;;
+	font-size:1.25em;
+	font-weight:700;
+	line-height:1.75em;
+	margin-bottom:1em;
+}
+
+footer {
+	background-color:#333333;
+	color:#ffffff;
+	padding:20px;
+}
+
+footer h5 {
+	color:#ffffff;
+}
+
+#contact_body label {
+	display:block;
+}
+
+.required {
+	font-size:.75em;
+	font-weight:300;
+}
+
+.has-error input, .has-error textarea {
+	background-color:#ffdbdb;
+}
+
+#contact_results .well {
+	color:#000000;
+}
+
+@media (min-width: 768px) {
+	.navbar-brand {
+		height:162px;
+		padding:62px 15px;
+	}
+
+	.navbar-right {
+		margin-top:62px;
+	}
+
+	.jumbotron h1 {
+		font-size:3.5em;
+		text-align:left;
+	}
+
+	.orange-box h2 {
+		font-size:1.5em;
+		font-weight:700;
+		margin-bottom:1em;
+	}
+
+	.orange-box p, p {
+		font-size:1.3125em;
+		line-height:1.75em;
+	}
+
+	h2 {
+		font-size:4.5em;
+	}
+
+
+
+}
+@media (max-width: 769px) {
+	.jumbotron h1 {
+		font-size:43px;
+		text-align:center;
+	}
+	.jumbotron .col-md-4 {
+		text-align:center;
+	}
+}
+
+@media (min-width: 769px) {
+	.stylized-ordered-list {
+		line-height:1.5em;
+	}
+}
+
+
+
+
+
+
+
+

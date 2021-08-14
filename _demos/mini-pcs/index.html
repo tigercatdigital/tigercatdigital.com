@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en" data-framework="marionettejs">
+	<head>
+		<meta charset="utf-8">
+		<title>Mini PCS Demo | Precision Circuits Inc.</title>
+
+		<link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700,300' rel='stylesheet' type='text/css'>
+
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+	</head>
+
+    <body>
+
+			<div class="container-wrapper">
+
+				<div id="notification"></div>
+
+		        <div id="demo">
+		          <!-- This is where the main content goes -->
+		        </div>
+
+		        <div class="row controls">
+
+		            <div class="col-md-2 col-sm-2" id="power-manager">
+
+		            </div>
+
+		            <div class="col-md-10 col-sm-10" id="input-manager">
+
+		            </div>
+
+		        </div>
+
+				<!-- To be used as modal-->
+				<div class="modal fade" id="powergrid" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h4 class="modal-title" id="myModalLabel">Choose Your Power Supply</h4>
+							</div>
+
+							<div class="modal-body">
+								<div class="row" id="power-supply-selector">
+
+								</div>
+							</div>
+
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /.modal -->
+
+		    </div>
+
+		<script src="bower_components/requirejs/require.js"></script>
+		<script src="js/main.js"></script>
+
+		<div class="hide">
+			<img src="img/no-power_on.png" />
+			<img src="img/no-power.png" />
+			<img src="img/icon_ac_on.png" />
+			<img src="img/icon_ac.png" />
+			<img src="img/icon_blow-dryer_on.png" />
+			<img src="img/icon_blow-dryer.png" />
+			<img src="img/icon_fridge_on.png" />
+			<img src="img/icon_fridge.png" />
+			<img src="img/icon_generator_on.png" />
+			<img src="img/icon_generator.png" />
+			<img src="img/icon_microwave_on.png" />
+			<img src="img/icon_microwave.png" />
+			<img src="img/icon_plug-15_on.png" />
+			<img src="img/icon_plug-15.png" />
+			<img src="img/icon_plug-20_on.png" />
+			<img src="img/icon_plug-20.png" />
+			<img src="img/icon_plug-30_on.png" />
+			<img src="img/icon_plug-30.png" />
+			<img src="img/icon_plug-50_on.png" />
+			<img src="img/icon_plug-50.png" />
+			<img src="img/icon_water-heater_on.png" />
+			<img src="img/icon_water-heater.png" />
+		</div>
+    </body>
+
+</html>

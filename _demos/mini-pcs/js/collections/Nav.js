@@ -1,0 +1,1 @@
+define(["backbone","models/Page"],function(e,t){"use strict";return e.Collection.extend({model:t})});

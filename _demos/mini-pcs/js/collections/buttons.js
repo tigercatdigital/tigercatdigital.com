@@ -1,0 +1,1 @@
+define(["backbone","models/button"],function(e,t){"use strict";return e.Collection.extend({model:t})});

@@ -1,0 +1,1 @@
+define(["marionette","views/MenuItemView"],function(e,t){"use strict";return e.CollectionView.extend({itemView:t,tagName:"ul",className:"nav nav-pills pull-right"})});

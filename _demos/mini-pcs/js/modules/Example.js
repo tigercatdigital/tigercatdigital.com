@@ -1,0 +1,1 @@
+define(["app","marionette"],function(e,t){console.log("Module:Example => Loading...");var n=e.module("Example",function(e){this.startWithParent=!1,this.addInitializer(function(){console.log("Module:Example => initialized")})});return n});

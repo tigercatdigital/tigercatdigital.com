@@ -1,0 +1,10 @@
+{
+  "name": "todomvc-backbone_marionette_require",
+  "version": "0.0.0",
+  "dependencies": {
+    "todomvc-common": "~1.0.2",
+    "requirejs": "~2.1",
+    "underscore": "~1.8",
+    "backbone.marionette": "~2.4"
+  }
+}

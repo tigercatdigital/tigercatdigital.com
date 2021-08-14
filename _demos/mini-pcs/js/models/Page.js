@@ -1,0 +1,1 @@
+define(["backbone"],function(e){"use strict";return e.Model.extend({defaults:{title:"Page title",content:"Page content",acive:!1,name:"404"},initialize:function(){}})});
